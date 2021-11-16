@@ -1,8 +1,8 @@
 export default function Header() {
   return (
     <div>
-      <header className="h-40 bg-black w-full flex items-center justify-between">
-        <div className=" h-24 flex gap-4 ml-20">
+      <header className=" px-24 h-40 bg-black w-full flex items-center justify-between">
+        <div className=" h-24 flex gap-4">
           <img
             src="https://cdn.discordapp.com/attachments/910172830203785256/910173349655748709/Header_DAO_Logo.png"
             alt=""
@@ -14,7 +14,7 @@ export default function Header() {
           />
         </div>
 
-        <div className="flex gap-6 mr-32">
+        <div className="flex gap-6">
           <button
             style={{ border: "1px solid #FFF" }}
             className="text-white rounded-xl px-2 border-white bg-black"
