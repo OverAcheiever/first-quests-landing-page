@@ -21,25 +21,25 @@ export default function Header() {
           >
             Connect Wallet
           </button>
-          <a href="/">
+          <a href="/" target="_blank">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910173393213591552/Header_Medium_Logo.png"
               alt=""
             />
           </a>
-          <a href="/">
+          <a href="/" target="_blank">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910173354315624468/Header_Discord_Logo.png"
               alt=""
             />
           </a>
-          <a href="/">
+          <a href="/" target="_blank">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910173399702204416/Header_Twitter_Logo.png"
               alt=""
             />
           </a>
-          <a href="/">
+          <a href="/" target="_blank">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910179667888181328/unknown.png"
               alt=""
@@ -63,25 +63,25 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="/">
+          <a href="/" target="_blank">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910173393213591552/Header_Medium_Logo.png"
               alt=""
             />
           </a>
-          <a href="/">
+          <a href="/" target="_blank">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910173354315624468/Header_Discord_Logo.png"
               alt=""
             />
           </a>
-          <a href="/">
+          <a href="/" target="_blank">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910173399702204416/Header_Twitter_Logo.png"
               alt=""
             />
           </a>
-          <a href="/">
+          <a href="/" target="_blank">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910179667888181328/unknown.png"
               alt=""
