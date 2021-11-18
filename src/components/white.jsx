@@ -5,12 +5,12 @@ export default function White(){
           style={{
             backgroundImage: `url("https://cdn.discordapp.com/attachments/910172830203785256/910173445160042556/mountain.png")`,
           }}
-          className="flex bg-cover flex-col p-8 gap-y-5 lg:flex-row gap-48 lg:p-40"
+          className="flex bg-cover  flex-col p-8 gap-y-5 lg:flex-row gap-48 lg:p-40"
         >
           <div>
             <div className=" flex flex-col gap-5 ">
               <h1 className="text-4xl clearsans-bold ">Why Go Bankless?</h1>
-              <p className="text-xl clearsans-regular ">
+              <p className="text-xl clearsans-regular">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                 rem recusandae distinctio libero sint. Labore, neque? Quasi
                 pariatur laborum ut labore ipsum non unde illum eos quam

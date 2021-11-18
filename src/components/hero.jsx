@@ -2,14 +2,15 @@ export default function Hero(){
     return (
       <div>
         <div className="h-max w-full bg-black text-white flex flex-col-reverse items-center lg:flex-row justify-around">
-          <div className="p-5">
-            <h1 className="text-2xl mb-2 clearsans-bold">
-              First Steps into Web3 <br /> and Financial Independence
+          <div className="p-4 lg:flex flex-col gap-6"> 
+            <h1 className="text-2xl xl:text-3xl mb-2 clearsans-bold">
+              First Steps into Web3 and
+              <br /> Financial Independence.
             </h1>
-            <p className="text-xl clearsans-regular">
-              First Quests sets you on your greater <br />
-              Web3, Deft, and crypto adventure and will
-              <br /> onboard you into the bankless Dao.
+            <p className="text-md md:text-xl clearsans-thin">
+              First Quests sets you on your greater Web3,
+              <br /> Defi, and crypto adventure and will onboard
+              <br /> you into the bankless Dao.
             </p>
           </div>
           <div>
@@ -32,7 +33,7 @@ export default function Hero(){
                 alt=""
               />
             </div>
-            <p className="text-sm px-6 clearsans-regular">
+            <p className="text-sm px-6 clearsans-thin">
               Contribute to the fast growing Defi community.
             </p>
 
@@ -52,7 +53,7 @@ export default function Hero(){
                 alt=""
               />
             </div>
-            <p className="text-sm px-4 clearsans-regular">
+            <p className="text-sm px-4 clearsans-thin">
               Get paid in crypto for contributing to DAO.
             </p>
             <button className="text-black clearsans-bold text-2xl bg-red-600 rounded-xl px-6 mt-12 ml-4">
@@ -70,7 +71,7 @@ export default function Hero(){
                 alt=""
               />
             </div>
-            <p className="text-sm px-4 clearsans-regular">
+            <p className="text-sm px-4 clearsans-thin">
               Become part of the Bankless Community, everyone is welcome.
             </p>
             <button className="text-black clearsans-bold text-2xl bg-red-600 rounded-xl px-6 mt-12 ml-5">
