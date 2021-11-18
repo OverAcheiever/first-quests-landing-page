@@ -56,7 +56,10 @@ export default function White(){
           </div>
         </div>
 
-        <div className="w-full h-max bg-red-600 p-8 lg:p-40">
+        <div
+          style={{backgroundImage:""}}
+          className="w-full h-max bg-red-600 p-8 lg:p-40"
+        >
           <div className="text-white">
             <h1 className="text-xl lg:text-3xl">START YOUR FIRST QUEST</h1>
             <p className="text-md lg:text-lg">

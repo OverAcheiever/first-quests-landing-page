@@ -78,26 +78,27 @@ export default function Hero(){
             </button>
           </div>
         </div>
-
-        <div class="w-full h-max bg-black flex flex-col items-center justify-center gap-y-1 p-4 md:flex-row gap-10 xl:p-32">
-          <div class="md:p-10 text-white flex flex-col gap-4">
-            <h1 class="text-xl lg:text-3xl">Bankless DAO</h1>
-            <p class="text-md lg:text-lg">
-              is the premier educational leader for welcoming <br /> the
-              uninitiated into the Defi fold.
-            </p>
-          </div>
-          <div class="flex flex-row gap-2 items-center justify-center">
-            <img
-              src="https://cdn.discordapp.com/attachments/910172830203785256/910173349655748709/Header_DAO_Logo.png"
-              alt=""
-            />
-            <h1 class="text-white text-3xl">by</h1>
-            <img
-              class="w-2/4"
-              src="https://cdn.discordapp.com/attachments/910172830203785256/910173347608932372/Header_Bankless_Logo2x.png"
-              alt=""
-            />
+        <div className="bg-black">
+          <div class="w-max h-max bg-black flex flex-col items-center justify-between gap-y-0 p-4 md:flex-row xl:p-32 xl:mx-16">
+            <div class="md:p-10 text-white flex flex-col gap-4">
+              <h1 class="text-xl lg:text-3xl">Bankless DAO</h1>
+              <p class="text-md lg:text-lg">
+                is the premier educational leader for welcoming <br /> the
+                uninitiated into the Defi fold.
+              </p>
+            </div>
+            <div class="flex flex-row gap-2 items-center justify-center">
+              <img
+                src="https://cdn.discordapp.com/attachments/910172830203785256/910173349655748709/Header_DAO_Logo.png"
+                alt=""
+              />
+              <h1 class="text-white text-3xl">by</h1>
+              <img
+                class="w-2/4"
+                src="https://cdn.discordapp.com/attachments/910172830203785256/910173347608932372/Header_Bankless_Logo2x.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
