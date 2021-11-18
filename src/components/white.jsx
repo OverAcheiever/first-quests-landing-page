@@ -1,11 +1,16 @@
 export default function White(){
     return (
       <div>
-        <div className="flex flex-col p-8 gap-y-5 lg:flex-row gap-48 lg:p-40">
+        <div
+          style={{
+            backgroundImage: `url("https://cdn.discordapp.com/attachments/910172830203785256/910173445160042556/mountain.png")`,
+          }}
+          className="flex bg-cover flex-col p-8 gap-y-5 lg:flex-row gap-48 lg:p-40"
+        >
           <div>
             <div className=" flex flex-col gap-5 ">
-              <h1 className="text-4xl">Why Go Bankless?</h1>
-              <p className="text-xl ">
+              <h1 className="text-4xl clearsans-bold ">Why Go Bankless?</h1>
+              <p className="text-xl clearsans-regular ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                 rem recusandae distinctio libero sint. Labore, neque? Quasi
                 pariatur laborum ut labore ipsum non unde illum eos quam
@@ -25,8 +30,8 @@ export default function White(){
 
           <div className="flex flex-col gap-8">
             <div className="">
-              <h1 className="text-4xl">Decentralisation</h1>
-              <p className="text-xl mt-5">
+              <h1 className="text-4xl clearsans-bold ">Decentralisation</h1>
+              <p className="text-xl mt-5 clearsans-regular">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
                 iure enim suscipit natus quo fugiat, distinctio, necessitatibus,
                 unde porro harum maiores maxime quis voluptatibus molestias
@@ -35,8 +40,8 @@ export default function White(){
             </div>
 
             <div>
-              <h1 className="text-4xl">Financial Freedom</h1>
-              <p className="text-xl mt-5 ">
+              <h1 className="text-4xl clearsans-bold ">Financial Freedom</h1>
+              <p className="text-xl mt-5 clearsans-regular ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
                 iure enim suscipit natus quo fugiat, distinctio, necessitatibus,
                 unde porro harum maiores maxime quis voluptatibus molestias
@@ -45,8 +50,8 @@ export default function White(){
             </div>
 
             <div>
-              <h1 className="text-4xl mt-5">Collaborative</h1>
-              <p className="text-xl ">
+              <h1 className="text-4xl mt-5 clearsans-bold ">Collaborative</h1>
+              <p className="text-xl clearsans-regular ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
                 iure enim suscipit natus quo fugiat, distinctio, necessitatibus,
                 unde porro harum maiores maxime quis voluptatibus molestias
@@ -57,17 +62,21 @@ export default function White(){
         </div>
 
         <div
-          style={{backgroundImage:""}}
-          className="w-full h-max bg-red-600 p-8 lg:p-40"
+          style={{
+            backgroundImage: `url("https://cdn.discordapp.com/attachments/910172830203785256/910173458405687306/waves.png")`,
+          }}
+          className="w-full h-max bg-cover p-8 lg:p-40"
         >
-          <div className="text-white">
-            <h1 className="text-xl lg:text-3xl">START YOUR FIRST QUEST</h1>
-            <p className="text-md lg:text-lg">
+          <div className="text-black">
+            <h1 className="text-xl lg:text-3xl clearsans-bold ">
+              START YOUR FIRST QUEST
+            </h1>
+            <p className="text-md lg:text-lg clearsans-regular">
               and begin your journey into Web3, Defi,
               <br /> and Financial independence with the <br /> Bankless DAO.
             </p>
           </div>
-          <button className="text-black text-2xl bg-white p-4 rounded-3xl mt-8">
+          <button className="clearsans-bold text-black text-2xl bg-white p-4 rounded-3xl mt-8">
             BEGIN QUEST
           </button>
         </div>
