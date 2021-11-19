@@ -80,7 +80,7 @@ export default function Hero(){
           </div>
         </div>
         <div className="bg-black">
-          <div class="w-max h-max bg-black flex flex-col items-center justify-between gap-y-0 p-4 md:flex-row xl:p-32 xl:mx-16">
+          <div class="w-max h-max bg-black flex flex-col items-center justify-between gap-y-0 p-4 md:flex-row xl:p-32 xl:py-12 xl:pt-20 xl:mx-16">
             <div class="md:p-10 text-white flex flex-col gap-4">
               <h1 class="text-xl clearsans-bold lg:text-3xl">Bankless DAO</h1>
               <p class="text-md lg:text-lg clearsans-regular">
