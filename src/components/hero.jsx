@@ -37,7 +37,7 @@ export default function Hero(){
               Contribute to the fast growing Defi community.
             </p>
 
-            <button className="text-black clearsans-bold text-2xl bg-red-600 rounded-xl px-6 mt-12 ml-4">
+            <button className="text-black clearsans-regular text-2xl bg-red-600 rounded-xl px-6 mt-12 ml-4">
               GET INVOLVED
             </button>
           </div>
@@ -56,7 +56,7 @@ export default function Hero(){
             <p className="text-sm px-4 clearsans-thin">
               Get paid in crypto for contributing to DAO.
             </p>
-            <button className="text-black clearsans-bold text-2xl bg-red-600 rounded-xl px-6 mt-12 ml-4">
+            <button className="text-black clearsans-regular text-2xl bg-red-600 rounded-xl px-6 mt-12 ml-4">
               START EARNING
             </button>
           </div>
@@ -74,7 +74,7 @@ export default function Hero(){
             <p className="text-sm px-4 clearsans-thin">
               Become part of the Bankless Community, everyone is welcome.
             </p>
-            <button className="text-black clearsans-bold text-2xl bg-red-600 rounded-xl px-6 mt-12 ml-5">
+            <button className="text-black clearsans-regular text-2xl bg-red-600 rounded-xl px-6 mt-12 ml-5">
               JOIN THE DAO
             </button>
           </div>

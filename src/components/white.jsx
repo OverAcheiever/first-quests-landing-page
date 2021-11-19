@@ -20,7 +20,7 @@ export default function White(){
                 </p>
                 <div className="flex justify-center mt-12">
                   <img
-                    class="w-4/6 lg:w-5/6"
+                    class="w-4/6 lg:w-4/5"
                     src="https://cdn.discordapp.com/attachments/910172830203785256/910173467062702161/Bankless_2021_POAP.png"
                     alt=""
                   />
