@@ -6,11 +6,11 @@ export default function White(){
             backgroundImage: `url("https://cdn.discordapp.com/attachments/910172830203785256/910173445160042556/mountain.png")`,
           }}
         >
-          <div className="flex bg-cover  flex-col p-8 gap-y-5 lg:flex-row gap-48 lg:p-40">
+          <div className="flex bg-cover flex-col p-8 gap-y-5 lg:flex-row gap-48 lg:p-40 xl:py-0 xl:pt-48">
             <div>
               <div className=" flex flex-col gap-5 ">
                 <h1 className="text-4xl clearsans-bold ">Why Go Bankless?</h1>
-                <p className="text-xl clearsans-regular">
+                <p className="text-lg clearsans-regular">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                   rem recusandae distinctio libero sint. Labore, neque? Quasi
                   pariatur laborum ut labore ipsum non unde illum eos quam
@@ -31,7 +31,7 @@ export default function White(){
             <div className="flex flex-col gap-8">
               <div className="">
                 <h1 className="text-4xl clearsans-bold ">Decentralisation</h1>
-                <p className="text-xl mt-5 clearsans-regular">
+                <p className="text-lg mt-5 clearsans-regular">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
                   iure enim suscipit natus quo fugiat, distinctio,
                   necessitatibus, unde porro harum maiores maxime quis
@@ -41,7 +41,7 @@ export default function White(){
 
               <div>
                 <h1 className="text-4xl clearsans-bold ">Financial Freedom</h1>
-                <p className="text-xl mt-5 clearsans-regular ">
+                <p className="text-lg mt-5 clearsans-regular ">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
                   iure enim suscipit natus quo fugiat, distinctio,
                   necessitatibus, unde porro harum maiores maxime quis
@@ -51,7 +51,7 @@ export default function White(){
 
               <div>
                 <h1 className="text-4xl mt-5 clearsans-bold ">Collaborative</h1>
-                <p className="text-xl clearsans-regular ">
+                <p className="text-lg clearsans-regular ">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
                   iure enim suscipit natus quo fugiat, distinctio,
                   necessitatibus, unde porro harum maiores maxime quis
@@ -68,7 +68,7 @@ export default function White(){
             className="w-full h-max bg-cover p-8 xl:p-64 "
           >
             <div className="text-black">
-              <h1 className="text-xl lg:text-3xl clearsans-bold ">
+              <h1 className="text-xl xl:text-4xl clearsans-bold">
                 START YOUR FIRST QUEST
               </h1>
               <p className="text-md lg:text-lg clearsans-regular">
