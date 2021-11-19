@@ -6,7 +6,7 @@ export default function White(){
             backgroundImage: `url("https://cdn.discordapp.com/attachments/910172830203785256/910173445160042556/mountain.png")`,
           }}
         >
-          <div className="flex bg-cover flex-col p-8 gap-y-5 lg:flex-row gap-48 lg:p-40 xl:py-0 xl:pt-48">
+          <div className="flex bg-cover flex-col p-8 gap-y-5 lg:flex-row gap-48 lg:p-24 lg:pt-40 xl:py-0 xl:pt-48">
             <div>
               <div className=" flex flex-col gap-5 ">
                 <h1 className="text-4xl clearsans-bold ">Why Go Bankless?</h1>
@@ -20,7 +20,7 @@ export default function White(){
                 </p>
                 <div className="flex justify-center mt-12">
                   <img
-                    class="w-4/6 lg:w-4/5"
+                    class="w-4/6 lg:w-full xl:w-4/5"
                     src="https://cdn.discordapp.com/attachments/910172830203785256/910173467062702161/Bankless_2021_POAP.png"
                     alt=""
                   />
@@ -65,10 +65,10 @@ export default function White(){
             style={{
               backgroundImage: `url("https://media.discordapp.net/attachments/910172830203785256/910173458405687306/waves.png?width=1440&height=580")`,
             }}
-            className="w-full h-max bg-cover p-8 xl:p-64 "
+            className="w-full h-max bg-cover p-8 xl:p-64"
           >
             <div className="text-black">
-              <h1 className="text-xl xl:text-4xl clearsans-bold">
+              <h1 className="text-xl lg:text-4xl clearsans-bold">
                 START YOUR FIRST QUEST
               </h1>
               <p className="text-md lg:text-lg clearsans-regular">
