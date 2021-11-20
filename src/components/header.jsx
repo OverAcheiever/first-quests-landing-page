@@ -24,7 +24,7 @@ export default function Header() {
         <div className="flex gap-6 hidden lg:inline-flex">
           <button
             style={{ border: "1px solid #FFF" }}
-            className="text-white rounded-xl px-3 border-white bg-black "
+            className="text-white rounded-full px-3 py-1 border-white bg-black "
           >
             Connect Wallet
           </button>

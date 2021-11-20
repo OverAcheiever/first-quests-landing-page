@@ -3,3 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "clearsans-Bold";
+    src: url("../src/assets/fonts/ClearSans-Bold.ttf");
+}
+.clearsans-bold{
+  font-family: "clearsans-Bold"
+}
+
+@font-face {
+    font-family: "clearsans-Regular";
+    src: url("../src/assets/fonts/ClearSans-Regular.ttf");
+}
+.clearsans-regular{
+  font-family: "clearsans-Regular"
+}
+
+@font-face {
+    font-family: "clearsans-Thin";
+    src: url("../src/assets/fonts/ClearSans-Thin.ttf");
+}
+.clearsans-thin{
+  font-family: "clearsans-Thin"
+}
+
+@font-face {
+    font-family: "clearsans-Medium";
+    src: url("../src/assets/fonts/ClearSans-Medium.ttf");
+}
+.clearsans-medium{
+  font-family: "clearsans-Medium"
+}
+
+@font-face {
+    font-family: "clearsans-Light";
+    src: url("../src/assets/fonts/ClearSans-Light.ttf");
+}
+.clearsans-light{
+  font-family: "clearsans-Light"
+}
