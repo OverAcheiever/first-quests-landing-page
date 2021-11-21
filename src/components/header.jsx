@@ -7,18 +7,15 @@ export default function Header() {
             src="https://cdn.discordapp.com/attachments/910172830203785256/910173349655748709/Header_DAO_Logo.png"
             alt=""
           />
-
-          <img
-            src="https://cdn.discordapp.com/attachments/910172830203785256/910173344874262578/Header_Bankless_Logo.png"
-            alt=""
-          />
         </div>
 
         <div className="lg:hidden">
-          <img
-            src="https://cdn.discordapp.com/attachments/868463273333366834/910542687239798834/9hZu47EYq40cbggIhxhgW0GM1eiuWwRkdjXbze5GRDjS8w6JtpkArV1QAAAABJRU5ErkJggg.png"
-            alt=""
-          />
+          <button
+            style={{ border: "1px solid #FFF" }}
+            className="text-white rounded-full px-3 py-1 border-white bg-black "
+          >
+            Connect Wallet
+          </button>
         </div>
 
         <div className="flex gap-6 hidden lg:inline-flex">

@@ -27,10 +27,10 @@ export default function CTAs() {
   ];
 
   return (
-    <div className="w-full flex items-center justify-center bg-black">
+    <div style={{}} className="w-full flex items-center justify-center bg-black">
       <div
-        style={{ maxWidth: "100rem" }}
-        className="flex flex-col items-center gap-5 py-10 lg:flex-row justify-between px-24 py-20 gap-x-20"
+        style={{ maxWidth: "73rem", }}
+        className="w-full flex flex-col items-center gap-5 py-10 lg:flex-row justify-between px-24 py-20 gap-x-20"
       >
         {CTAs.map((cta, key) => (
           <div
@@ -40,7 +40,7 @@ export default function CTAs() {
           >
             <div className="flex justify-between clearsans-bold text-2xl">
               <h1> {cta.title} </h1>
-              <img src={cta.image} alt="" />
+              
             </div>
             <p className="text-md mt-5 clearsans-thin">{cta.description}</p>
             <button

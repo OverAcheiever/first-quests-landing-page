@@ -5,7 +5,7 @@ export default function Footer(){
           style={{ borderBottom: "5px solid rgb(220, 38, 38)" }}
           className="h-40 bg-black w-full flex justify-center lg:flex flex items-center justify-evenly border-solid color-red-600"
         >
-          <div className="text-white flex items-center hidden lg:inline-flex ">©2021 Bankless Dao</div>
+          <div className="text-white flex items-center hidden lg:inline-flex">©2021 Bankless Dao</div>
           <div className="flex h-24">
             <img
               src="https://cdn.discordapp.com/attachments/910172830203785256/910173349655748709/Header_DAO_Logo.png"
