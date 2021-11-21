@@ -10,7 +10,7 @@ export default function White() {
         <div className="w-full flex justify-center">
           <div
             style={{ maxWidth: "65rem" }}
-            className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-16 lg:gap-y-0 pt-40 px-5 sm:px-14 lg:px-0"
+            className="grid grid-cols-1 lg:grid-cols-2 gap-x-20 gap-y-16 lg:gap-y-0 pt-40 px-5 sm:px-14 lg:px-10"
           >
             <div>
               <div className="flex flex-col gap-5 ">

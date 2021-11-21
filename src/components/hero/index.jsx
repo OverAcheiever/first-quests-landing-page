@@ -10,8 +10,8 @@ export default function Hero() {
           style={{ maxWidth: "80rem" }}
           className="w-full text-white flex gap-y-10 lg:gap-y-0 flex-col-reverse items-center pt-5 lg:flex-row justify-around"
         >
-          <div className="px-5 lg:flex flex-col gap-6 md:flex items-center">
-            <h1 className="text-2xl md:text-3xl mb-2 clearsans-bold md:px-44 ">
+          <div className="px-5 lg:flex flex-col gap-6">
+            <h1 className="text-2xl xl:text-3xl mb-2 clearsans-bold">
               First Steps into Web3 <br className="hidden lg:block" /> and
               Financial Independence.
             </h1>
