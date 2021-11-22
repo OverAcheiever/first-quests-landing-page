@@ -53,7 +53,7 @@ export default function White() {
               </div>
               <div>
                 <h1 className="text-4xl mt-5 clearsans-bold ">Collaborative</h1>
-                <p className="text-lg clearsans-regular ">
+                <p className="text-lg mt-5 clearsans-regular ">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
                   iure enim suscipit natus quo fugiat, distinctio,
                   necessitatibus, unde porro harum maiores maxime quis
@@ -63,9 +63,29 @@ export default function White() {
             </div>
           </div>
         </div>
-        <div>
-          <h1>START YOUR FIRST QUEST</h1>
-          <p></p>
+        <div
+          style={{
+            backgroundImage: `url('https://cdn.discordapp.com/attachments/910172830203785256/910173471336697906/waves2x.png')`,
+          }}
+          className="w-full flex justify-center md:justify-center pt-72 sm:pt-60 pb-20 bg-cover" // md:px-16 xl:px-36 2xl:px-72
+        >
+          <div
+            style={{ maxWidth: "58rem" }}
+            className="w-11/12 md:w-full flex sm:px-14 lg:px-0"
+          >
+            <div className="">
+              <h1 className="text-4xl mt-5 clearsans-bold text-white ">
+                START YOUR FIRST QUEST
+              </h1>
+              <p className="text-lg mt-5 clearsans-regular text-white">
+                and begin your journey into Web3, Defi, <br /> and Financial
+                independence with the <br /> Bankless Dao.
+              </p>
+              <button className="w-max clearsans-bold text-black text-2xl bg-white p-4 rounded-2xl mt-5">
+                BEGIN QUEST
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

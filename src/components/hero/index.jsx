@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="w-full flex items-center justify-center bg-black">
         <div
           style={{ maxWidth: "80rem" }}
-          className="w-full text-white flex gap-y-10 lg:gap-y-0 flex-col-reverse items-center pt-5 lg:flex-row justify-around"
+          className="w-full text-white flex gap-y-10 lg:gap-y-0 flex-col-reverse items-center pt-5 md:flex-row justify-around"
         >
           <div className="px-5 lg:flex flex-col gap-6">
             <h1 className="text-2xl xl:text-3xl mb-2 clearsans-bold">
@@ -17,7 +17,7 @@ export default function Hero() {
             </h1>
             <p className="text-xl md:text-xl clearsans-thin">
               First Quests sets you on your greater Web3,
-              <br /> Defi, and crypto adventure and will onboard
+              <br  /> Defi, and crypto adventure and will onboard
               <br /> you into the bankless Dao.
             </p>
           </div>
