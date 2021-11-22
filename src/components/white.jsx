@@ -63,25 +63,9 @@ export default function White() {
             </div>
           </div>
         </div>
-
-        <div
-          style={{
-            backgroundImage: `url("https://media.discordapp.net/attachments/910172830203785256/910173458405687306/waves.png?width=1440&height=580")`,
-          }}
-          className="w-full h-max bg-cover bg-no-repeat p-8 xl:p-64"
-        >
-          <div className="text-black">
-            <h1 className="text-xl lg:text-4xl clearsans-bold">
-              START YOUR FIRST QUEST
-            </h1>
-            <p className="text-md lg:text-lg clearsans-regular">
-              and begin your journey into Web3, Defi,
-              <br /> and Financial independence with the <br /> Bankless DAO.
-            </p>
-          </div>
-          <button className="clearsans-bold text-black text-2xl bg-white p-4 rounded-3xl mt-8">
-            BEGIN QUEST
-          </button>
+        <div>
+          <h1>START YOUR FIRST QUEST</h1>
+          <p></p>
         </div>
       </div>
     </div>

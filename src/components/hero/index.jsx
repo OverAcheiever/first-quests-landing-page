@@ -36,15 +36,18 @@ export default function Hero() {
       <div className="w-full bg-black flex justify-center">
         <div
           style={{ maxWidth: "81rem" }}
-          className="w-full h-max bg-black flex flex-col items-center justify-between gap-y-0 p-4 md:flex-row xl:p-32 xl:py-12 xl:pt-20 xl:mx-16"
+          className="w-full h-max bg-black flex flex-col items-center justify-between gap-y-0 p-4 md:flex-row xl:p-32 xl:py-12 xl:pt-20 xl:mx-16 md:gap-x-3"
         >
-          <div className="md:p-10 md:pr-0 text-white flex flex-col gap-4">
+          <div className="md:p-10 md:pr-0 text-white flex flex-col gap-4 md:gap-2">
             <h1 className="text-2xl clearsans-bold lg:text-3xl">
               Bankless DAO
             </h1>
-            <p className="text-md lg:text-lg clearsans-regular">
-              is the premier educational leader for welcoming <br /> the
-              uninitiated into the Defi fold.
+            <p
+              style={{ maxWidth: "25rem" }}
+              className="text-md lg:text-lg clearsans-regular"
+            >
+              is the premier educational leader for welcoming the uninitiated
+              into the Defi fold.
             </p>
           </div>
           <div className="flex flex-row gap-x-2 items-center justify-center">
