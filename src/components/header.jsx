@@ -7,6 +7,12 @@ export default function Header() {
             src="https://cdn.discordapp.com/attachments/910172830203785256/910173349655748709/Header_DAO_Logo.png"
             alt=""
           />
+
+          <img
+            className="hidden md:block"
+            src="https://cdn.discordapp.com/attachments/910172830203785256/910173347608932372/Header_Bankless_Logo2x.png"
+            alt=""
+          />
         </div>
 
         <div className="lg:hidden">

@@ -12,13 +12,13 @@ export default function Hero() {
         >
           <div className="px-5 lg:flex flex-col gap-6">
             <h1 className="text-2xl xl:text-3xl mb-2 clearsans-bold">
-              First Steps into Web3 <br className="hidden lg:block" /> and
+              First Steps into Web3 <br className="hidden md:block" /> and
               Financial Independence.
             </h1>
             <p className="text-xl md:text-xl clearsans-thin">
               First Quests sets you on your greater Web3,
-              <br  /> Defi, and crypto adventure and will onboard
-              <br /> you into the bankless Dao.
+              <br className="hidden md:block" /> Defi, and crypto adventure and will onboard
+              <br className="hidden md:block" /> you into the bankless Dao.
             </p>
           </div>
           <div>
