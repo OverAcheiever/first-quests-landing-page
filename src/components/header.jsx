@@ -1,16 +1,23 @@
+import daoLogo from "../assets/images/nav-bars/dao-logo.png";
+import banklessLogo from "../assets/images/nav-bars/banklesslogo.png";
+import mediumLogo from "../assets/images/nav-bars/medium-logo.png";
+import discordLogo from "../assets/images/nav-bars/discord-logo.png";
+import twitterLogo from "../assets/images/nav-bars/twitter-logo.png";
+import githubLogo from "../assets/images/nav-bars/github-logo.png";
+
 export default function Header() {
   return (
     <div>
       <header className=" p-6 flex xl:px-24 h-40 bg-black w-full flex items-center justify-between">
         <div className=" h-24 flex gap-4">
           <img
-            src="https://cdn.discordapp.com/attachments/910172830203785256/910173349655748709/Header_DAO_Logo.png"
+            src={daoLogo}
             alt=""
           />
 
           <img
             className="hidden md:block"
-            src="https://cdn.discordapp.com/attachments/910172830203785256/910173347608932372/Header_Bankless_Logo2x.png"
+            src={banklessLogo }
             alt=""
           />
         </div>
@@ -33,25 +40,25 @@ export default function Header() {
           </button>
           <a href="/" target="_blank">
             <img
-              src="https://cdn.discordapp.com/attachments/910172830203785256/910173393213591552/Header_Medium_Logo.png"
+              src={mediumLogo}
               alt=""
             />
           </a>
           <a href="/" target="_blank">
             <img
-              src="https://cdn.discordapp.com/attachments/910172830203785256/910173354315624468/Header_Discord_Logo.png"
+              src={discordLogo}
               alt=""
             />
           </a>
           <a href="/" target="_blank">
             <img
-              src="https://cdn.discordapp.com/attachments/910172830203785256/910173399702204416/Header_Twitter_Logo.png"
+              src={twitterLogo}
               alt=""
             />
           </a>
           <a href="/" target="_blank">
             <img
-              src="https://cdn.discordapp.com/attachments/910172830203785256/910179667888181328/unknown.png"
+              src={githubLogo}
               alt=""
             />
           </a>
