@@ -41,7 +41,7 @@ export default function CTAs() {
             <p className="text- mt-5 clearsans-thin">{cta.description}</p>
             <button
               style={{ backgroundColor: "#ff3131" }}
-              className="w-full h-10 text-black clearsans-regular text-lg rounded-lg mt-12"
+              className="w-full h-10 text-black clearsans-regular text-lg rounded-lg mt-8"
             >
               {cta.ctaLabel}
             </button>
