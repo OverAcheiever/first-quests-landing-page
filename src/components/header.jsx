@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div>
       <header className=" p-6 flex xl:px-24 h-40 bg-black w-full flex items-center justify-between">
-        <div className=" h-24 flex gap-4">
+        <div className="w-24 h-auto flex gap-4">
           <img
             src={daoLogo}
             alt=""
