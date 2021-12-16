@@ -15,7 +15,7 @@ export default function Footer() {
         <div className="text-white flex items-center hidden lg:inline-flex">
           ©2021 Bankless Dao
         </div>
-        <div className="flex w-24 h-auto">
+        <div className="flex w-24 h-auto justify-center md:h-24">
           <img src={daoLogo} alt="" />
 
           <img src={banklessLogo} alt="" />
