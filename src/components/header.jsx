@@ -8,7 +8,7 @@ import githubLogo from "../assets/images/nav-bars/github-logo.png";
 export default function Header() {
   return (
     <div>
-      <header className="p-6 flex xl:px-24 h-40 bg-black w-full flex items-center justify-between">
+      <header className="p-6 pt-3 pb-0 lg:pt-0 flex xl:px-24 h-max lg:h-40 bg-black w-full flex items-center justify-between">
         <div className="w-24 h-auto flex gap-4">
           <img
             src={daoLogo}
@@ -22,22 +22,22 @@ export default function Header() {
           />
         </div>
 
-        <div className="lg:hidden">
+        {/* <div className="lg:hidden">
           <button
             style={{ border: "1px solid #FFF" }}
             className="text-white rounded-full px-3 py-1 border-white bg-black "
           >
             Connect Wallet
           </button>
-        </div>
+        </div> */}
 
         <div className="flex gap-6 hidden lg:inline-flex">
-          <button
+          {/* <button
             style={{ border: "1px solid #FFF" }}
             className="text-white rounded-full px-3 py-1 border-white bg-black"
           >
             Connect Wallet
-          </button>
+          </button> */}
           <a href="/" target="_blank">
             <img
               src={mediumLogo}
