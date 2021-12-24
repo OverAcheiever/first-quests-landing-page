@@ -44,13 +44,13 @@ export default function Header() {
               alt=""
             />
           </a>
-          <a href="/" target="_blank">
+          <a href="https://discord.com/invite/bankless" target="_blank" rel="noreferrer">
             <img
               src={discordLogo}
               alt=""
             />
           </a>
-          <a href="/" target="_blank">
+          <a href="https://twitter.com/banklessDAO" target="_blank" rel="noreferrer">
             <img
               src={twitterLogo}
               alt=""

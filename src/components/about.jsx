@@ -85,9 +85,11 @@ export default function White() {
                 and begin your journey into Web3, Defi, <br /> and Financial
                 independence with the <br /> Bankless Dao.
               </p>
-              <button className="w-max clearsans-bold text-black text-xl bg-white p-4 px-8 rounded-2xl mt-14">
-                BEGIN QUEST
-              </button>
+              <a href="https://discord.com/invite/bankless" target="_blank" rel="noreferrer">
+                <button className="w-max clearsans-bold text-black text-xl bg-white p-4 px-8 rounded-2xl mt-14">
+                  BEGIN QUEST
+                </button>
+              </a>
             </div>
           </div>
         </div>
