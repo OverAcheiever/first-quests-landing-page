@@ -36,7 +36,7 @@ export default function CTAs() {
             className="w-full flex flex-col justify-between w-64 h-64 border-black bg-black text-white rounded-xl p-6"
           >
             <div className="flex justify-between clearsans-bold text-3xl">
-              <h1> {cta.title} </h1>
+              <h1> {cta.title} </h1>  
             </div>
             <p className="text- mt-5 clearsans-thin">{cta.description}</p>
             <a href="https://discord.com/invite/bankless" target="_blank" rel="noreferrer">
